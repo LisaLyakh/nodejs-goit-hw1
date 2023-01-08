@@ -1,0 +1,32 @@
+{
+  "name": "nodejs-goit-hw1",
+  "version": "1.0.0",
+  "description": "CLI_",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "start:dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LisaLyakh/nodejs-goit-hw1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LisaLyakh/nodejs-goit-hw1.git/issues"
+  },
+  "homepage": "https://github.com/LisaLyakh/nodejs-goit-hw1.git#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "commander": "^9.5.0",
+    "fs": "0.0.1-security",
+    "promises": "^0.2.5",
+    "uuid": "^9.0.0",
+    "yargs": "^17.6.2"
+  }
+}
